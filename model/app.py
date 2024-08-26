@@ -40,8 +40,8 @@ def update_embeddings():
     return vectordb
 
 
-st.title("QnA with your PDFXXXX")
-st.write("Este es un agente de AI que responde a preguntas sobre tu archivo PDFX")
+st.title("QnA with your PDF")
+st.write("Este es un agente de AI que responde a preguntas sobre tu archivo PDF")
 
 if st.button("Actualizar memory"):
     vectordb = update_embeddings()
